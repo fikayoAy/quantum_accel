@@ -1,0 +1,19 @@
+[package]
+name = "quantum_accel"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+# Support Python, C libraries, and Rust importing
+crate-type = ["cdylib", "staticlib", "rlib"]
+
+[build]
+rustflags = ["-C", "target-feature=+avx2"]
+
+[dependencies]
+pyo3 = { version = "0.20", features = ["extension-module"] }
+numpy = "0.20"
+rayon = "1.5"
+wide = "0.7.10"
+lazy_static = "1.4.0"
+

@@ -1,0 +1,2 @@
+include quantum_accel/Cargo.toml
+recursive-include quantum_accel/src *.rs

@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+Optimized_quantum_gates/__init__.py
+Optimized_quantum_gates/gates.py
+quantum_gates.egg-info/PKG-INFO
+quantum_gates.egg-info/SOURCES.txt
+quantum_gates.egg-info/dependency_links.txt
+quantum_gates.egg-info/not-zip-safe
+quantum_gates.egg-info/top_level.txt

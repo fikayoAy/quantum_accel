@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "setuptools-rust>=0.12.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantum_accel"
+version = "0.1.0"
+authors = [
+    {name = "Ayodele Fikayomi", email = "ayoeleanjola4@gmail.com"},
+]
+description = "Quantum-inspired gate operations for memory-efficient computing"
+readme = "README.md"
+requires-python = ">=3.7"
+
+license = "Apache-2.0"
+
+[project.urls]
+"Homepage" = "https://github.com/fikayoAy/quantum_accel"
+"Bug Tracker" = "https://github.com/fikayoAy/quantum-accel/issues"
