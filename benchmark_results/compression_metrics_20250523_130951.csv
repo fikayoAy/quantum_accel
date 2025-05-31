@@ -1,0 +1,15 @@
+Metric,Value,Details
+Original Dictionary Size (bytes),1925724,Serialized file size
+Matrix File Size (bytes),383986,Serialized file size
+Metadata File Size (bytes),931702,Serialized file size
+Combined Compressed File Size (bytes),1399030,Serialized file size
+Compression Ratio (file-based),1.3764708405109254,Based on serialized files
+Memory Reduction (file-based) (%),27.350440665432842,Based on serialized files
+In-Memory Original Size (bytes),295000,Python object in memory
+In-Memory Matrix Size (bytes),48,Python object in memory
+In-Memory Metadata Size (bytes),640,Python object in memory
+In-Memory Compression Ratio,428.77906976744185,Based on in-memory objects
+In-Memory Reduction (%),99.76677966101694,Based on in-memory objects
+Node Count,5985,
+Connection Count,29920,
+Connections per Byte,0.021386246184856652,Based on serialized file size

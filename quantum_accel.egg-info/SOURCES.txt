@@ -1,6 +1,8 @@
+LICENSE
 MANIFEST.in
 README.md
 pyproject.toml
+requirements.txt
 setup.py
 Optimized_quantum_gates/__init__.py
 Optimized_quantum_gates/gates.py
@@ -9,5 +11,6 @@ quantum_accel.egg-info/PKG-INFO
 quantum_accel.egg-info/SOURCES.txt
 quantum_accel.egg-info/dependency_links.txt
 quantum_accel.egg-info/not-zip-safe
+quantum_accel.egg-info/requires.txt
 quantum_accel.egg-info/top_level.txt
 quantum_accel/src/lib.rs

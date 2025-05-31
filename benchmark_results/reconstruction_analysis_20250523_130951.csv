@@ -1,0 +1,6 @@
+Factor,Status,Details
+Reconstruction Accuracy,100.00%,5985 of 5985 nodes reconstructed perfectly
+Key Match,100.00%,29920 common keys out of 29920 total keys
+Matrix Format,Sparse,Optimal for 29920 connections in 5985 nodes
+Encoding Type,hyperdim_connections,Version 1.2
+Storage Efficiency,0.0214 conn/byte,1399030 bytes for 29920 connections

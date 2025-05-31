@@ -3,11 +3,14 @@ Name: quantum_accel
 Version: 0.1.0
 Summary: Quantum-inspired gate operations for memory-efficient computing
 Author-email: Ayodele Fikayomi <ayoeleanjola4@gmail.com>
-License-Expression: Apache-2.0
+License: Apache-2.0
 Project-URL: Homepage, https://github.com/fikayoAy/quantum_accel
-Project-URL: Bug Tracker, https://github.com/yourusername/quantum-accel/issues
+Project-URL: Bug Tracker, https://github.com/fikayoAy/quantum-accel/issues
 Requires-Python: >=3.7
 Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.20.0
+Dynamic: license-file
 Dynamic: requires-python
 
 # Quantum Gates Library

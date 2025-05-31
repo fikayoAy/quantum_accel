@@ -11,8 +11,11 @@ authors = [
 description = "Quantum-inspired gate operations for memory-efficient computing"
 readme = "README.md"
 requires-python = ">=3.7"
+license = { text = "Apache-2.0" }
+dynamic = ["dependencies"]
 
-license = "Apache-2.0"
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
 
 [project.urls]
 "Homepage" = "https://github.com/fikayoAy/quantum_accel"

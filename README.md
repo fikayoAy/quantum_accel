@@ -663,21 +663,42 @@ QuantumAccel enables symbolic, memory-efficient computation with quantum-inspire
 - **Solution:** Sparse gates apply logic only to scene deltas
 - **Example:** AR glasses track motion and changes using 10× less memory
 - 
+
+## Features
+
+- High-performance quantum gate operations implemented in Rust
+- Memory-efficient transformations 
+- Multiple language support (Python, C, and others via FFI)
+- Parallel processing capabilities
+
 ## Installation
 
-### Option 1: Install from GitHub
+### Option 1: Install from GitHub Repository
 ```bash
 pip install git+https://github.com/fikayoAy/quantum_accel.git
 
-### Option 2: Download Pre-Built Wheel
-Go to the Releases page.
-Download the .whl file for your platform.
-Install it: pip install quantum_accel-0.1.0-cp39-cp39-win_amd64.whl
+### Option 2: Install Pre-Built Wheels (Fastest)
+ - Download the appropriate wheel for your Python version and platform from our releases page:
+### For Python 3.11 on Windows 64-bit:
+pip install quantum_accel-0.1.0-cp311-cp311-win_amd64.whl
 
-### Option 3:
-# Install Rust (if not already installed)
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+### For Python 3.12 on Windows 32-bit:
+pip install quantum_accel-0.1.0-cp312-cp312-win32.whl
 
-# Install your package
+### For Python 3.12 on Windows 64-bit:
+pip install quantum_accel-0.1.0-cp312-cp312-win_amd64.whl
+
+### Option 3: Build from Source (Any Platform)
+For platforms without pre-built wheels or Python 3.13+:
+
+Install Rust: https://www.rust-lang.org/tools/install
+Download the source distribution:
+### Download quantum_accel-0.1.0.tar.gz from releases
 pip install quantum_accel-0.1.0.tar.gz
+
+### Supported Python Versions
+Python 3.11 (pre-built wheels available)
+Python 3.12 (pre-built wheels available)
+Python 3.13 (requires building from source)
+
 

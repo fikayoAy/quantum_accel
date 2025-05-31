@@ -1,10 +1,10 @@
 implementation=CPython
-version=3.9
+version=3.13
 shared=true
 abi3=false
-lib_name=python39
-lib_dir=C:\Users\ayode\AppData\Local\Programs\Python\Python39\libs
-executable=C:\Users\ayode\ConstantA\Time\venv\Scripts\python.exe
-pointer_width=64
+lib_name=python313
+lib_dir=C:\Users\ayode\AppData\Local\pypa\cibuildwheel\Cache\nuget-cpython\pythonx86.3.13.3\tools\libs
+executable=C:\Users\ayode\AppData\Local\Temp\cibw-run-1a39sxyt\cp313-win32\build\venv\Scripts\python.EXE
+pointer_width=32
 build_flags=
 suppress_build_script_link_lines=false

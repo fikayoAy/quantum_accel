@@ -1,0 +1,25 @@
+Compression Metric Type,Details,Value,Notes
+IN-MEMORY COMPRESSION,,,This is what Python sees in RAM
+Original Dictionary Size,Using sys.getsizeof(),"295,000 bytes",Only includes direct memory allocation
+Compressed Size,Matrix + Metadata,688 bytes,Sum of direct memory allocations
+Compression Ratio,In-memory,428.78x,This is the 428.78x value seen in console
+Memory Reduction,In-memory,99.77%,This is the 99.77% value seen in console
+,,,
+FILE-BASED COMPRESSION,,,This is the actual serialized data size on disk
+Original Dictionary Size,Serialized to pickle,"1,925,724 bytes",Full serialized size including all nested structures
+Matrix Only Size,NPZ format,"383,986 bytes",Sparse matrix in optimized numeric format
+Metadata Only Size,Pickle format,"931,702 bytes",Supporting data structure in pickle format
+Combined Size,Single NPZ file,"1,399,030 bytes",Matrix and metadata in one file
+Compression Ratio,File-based,1.38x,Actual disk space reduction
+Memory Reduction,File-based,27.35%,Percentage saved on disk
+,,,
+WHY THE DIFFERENCE?,,,
+Python Object Measurement,,,"sys.getsizeof() only measures the direct memory allocation for an object, not its contents"
+Serialization Expansion,,,Pickle format adds type information and structure that increases file size
+Nested Structure Handling,,,File serialization includes full recursive size of all nested dictionaries and lists
+,,,
+WHICH ONE IS MORE ACCURATE?,,,
+For Memory Usage,,,In-memory metrics are better for RAM usage comparison
+For Storage Requirements,,,File-based metrics are better for disk space comparison
+For Complete Analysis,,,Both should be considered for a full picture of compression efficiency
+For Your Lecturer,,,File-based metrics are more relevant as they reflect real-world storage needs

@@ -1,0 +1,7 @@
+Component,Size (items),Memory (bytes),Example/Description,Role in Reconstruction
+Index Mapping,5985,295000,"[('0', 0), ('1', 1), ('2', 2)]",Maps matrix indices to original node IDs
+Physical Distances,29920,1310808,"{'0,2533': 672.9517070340189, '0,2078': 1116.3368667207942}",Stores exact distances between nodes
+Ratio Values,29920,1310808,Physical/Hyperdimensional ratios,Preserves exact spatial relationships
+Spatial Data,5985,295000,"{'0': [16.0, 16.0, 0.0], '1': [32.0, 16.0, 0.0]}",Enables calculation of physical distances
+Matrix Type,1,0,general,Optimizes reconstruction based on structure
+Matrix Shape,1,0,"(5985, 5985)",Defines dimensions of the connection matrix
