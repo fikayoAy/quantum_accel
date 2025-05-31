@@ -662,3 +662,15 @@ QuantumAccel enables symbolic, memory-efficient computation with quantum-inspire
 - **Problem:** Headsets have very tight compute/memory limits
 - **Solution:** Sparse gates apply logic only to scene deltas
 - **Example:** AR glasses track motion and changes using 10× less memory
+- 
+## Installation
+
+### Option 1: Install from GitHub
+```bash
+pip install git+https://github.com/fikayoAy/quantum_accel.git
+
+### Option 2: Download Pre-Built Wheel
+Go to the Releases page.
+Download the .whl file for your platform.
+Install it: pip install quantum_accel-0.1.0-cp39-cp39-win_amd64.whl
+
