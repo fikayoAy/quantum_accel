@@ -674,3 +674,10 @@ Go to the Releases page.
 Download the .whl file for your platform.
 Install it: pip install quantum_accel-0.1.0-cp39-cp39-win_amd64.whl
 
+### Option 3:
+# Install Rust (if not already installed)
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+# Install your package
+pip install quantum_accel-0.1.0.tar.gz
+
