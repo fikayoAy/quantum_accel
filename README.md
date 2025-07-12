@@ -671,6 +671,7 @@ QuantumAccel enables symbolic, memory-efficient computation with quantum-inspire
 - Multiple language support (Python, C, and others via FFI)
 - Parallel processing capabilities
 
+### ⚠️ Note: Some experimental models in this repository are still under active development or incomplete. Core transformation functions are stable. A future release will improve structure and reliability.
 ## Installation
 
 ### Option 1: Install from GitHub Repository
@@ -701,5 +702,13 @@ Python 3.11 (pre-built wheels available)
 Python 3.12 (pre-built wheels available)
 Python 3.13 (requires building from source)
 
-### ⚠️ Note: Some experimental models in this repository are still under active development or incomplete. Core transformation functions are stable. A future release will improve structure and reliability.
+
+
+
+
+
+
+
+
+
 
